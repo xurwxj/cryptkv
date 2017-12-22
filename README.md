@@ -1,5 +1,9 @@
 # crypt
 
+fork from https://github.com/xordataexchange/crypt
+
+add zookeeper support and get all plain conf methods
+
 You can use crypt as a command line tool or as a configuration library:
 
 * [crypt cli](bin/crypt)
@@ -13,7 +17,7 @@ Watch Kelsey explain `crypt` in this quick 5 minute video:
 
 ## Generating gpg keys and keyrings
 
-The crypt cli and config package require gpg keyrings. 
+The crypt cli and config package require gpg keyrings.
 
 ### Create a key and keyring from a batch file
 
