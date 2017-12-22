@@ -1,0 +1,11 @@
+package: git.3dzao.cn/3dzao/cryptkv
+import:
+- package: github.com/armon/consul-api
+- package: github.com/coreos/etcd
+  version: ~3.2.9
+  subpackages:
+  - client
+- package: github.com/samuel/go-zookeeper
+  subpackages:
+  - zk
+- package: golang.org/x/crypto/openpgp
